@@ -4,7 +4,7 @@ contract DappToken {
     
     uint256 public totalSupply;
     // constructor
-    constructor() public{
-        totalSupply = 1000**2;
+    constructor(uint256 _initalSupply) public{
+        totalSupply = _initalSupply;
     }
 }
