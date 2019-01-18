@@ -7,4 +7,6 @@ contract DappToken {
     constructor(uint256 _initalSupply) public{
         totalSupply = _initalSupply;
     }
+    // 映射 地址=>余额
+    mapping(address => uint256) public balanceOf;
 }
